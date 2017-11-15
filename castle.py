@@ -9,7 +9,7 @@ mc.setBlocks(x, y ,z, x+8, y+5, z+12, block.WOOD_PLANKS.id)
 mc.setBlocks(x+1, y-1, z+1,  x+6,  y+4,  z+11,  block.AIR.id)
 
 ##Add the floor to the Mill
-mc.setBlocks(x, y-1, z, x+8, y-1, z+11, block.WOOL.id.1)
+mc.setBlocks(x, y-1, z, x+8, y-1, z+11, block.WOOL.id,1)
 
 ##Add a gap for the main entrance
 mc.setBlocks(x+3, y, z, x+4, y+1, z, block.AIR.id)
