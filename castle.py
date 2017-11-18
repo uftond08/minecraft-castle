@@ -17,8 +17,11 @@ mc.setBlocks(x+3, y, z+3, x+46, y+5, z+46,  block.AIR.id)
 mc.setBlocks(x+17, y, z+18, x+32, y+15, z+33, block.COBBLESTONE.id)
 mc.setBlocks(x+18, y, z+19, x+31, y+14, z+32,  block.AIR.id)
 
-
-
+## dig and fill moat with water
+mc.setBlocks(x-5, y-5, z-5, x+54, y-1, z-1, block.WATER.id)
+mc.setBlocks(x+50, y-5, z, x+54, y-1, z+54, block.WATER.id)
+mc.setBlocks(x-1, y-5, z, x-5, y-1, z+54, block.WATER.id)
+mc.setBlocks(x-5, y-5, z+50, x+54, y-1, z+54, block.WATER.id)
 
 
 
