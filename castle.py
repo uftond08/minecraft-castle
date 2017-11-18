@@ -4,6 +4,11 @@ mc = minecraft.Minecraft.create()
 x,y,z = mc.player.getPos()
 x+=2
 
+## Makes the land flat with grass
+mc.setBlocks(-128, y-10,-128, 128, y-1, 128, block.DIRT.id)
+mc.setBlocks(-128, y-1, -128, 128 , y, 128, block.GRASS.id)
+mc.setBlocks(-128, y, -128, 128 , y+64, 128, block.AIR.id)
+
 ## Build the castle walls and fill with air
 mc.setBlocks(x, y, z, x+49, y+5, z+49, block.COBBLESTONE.id)
 mc.setBlocks(x+3, y, z+3, x+46, y+5, z+46,  block.AIR.id)
