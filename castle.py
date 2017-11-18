@@ -10,18 +10,18 @@ mc.setBlocks(-128, y-1, -128, 128 , y, 128, block.GRASS.id)
 mc.setBlocks(-128, y, -128, 128 , y+64, 128, block.AIR.id)
 
 ## Build the castle walls and fill with air
-mc.setBlocks(x, y, z, x+49, y+5, z+49, block.COBBLESTONE.id)
-mc.setBlocks(x+3, y, z+3, x+46, y+5, z+46,  block.AIR.id)
+mc.setBlocks(x, y, z, x+29, y+4, z+29, block.COBBLESTONE.id)
+mc.setBlocks(x+3, y, z+3, x+27, y+4, z+27,  block.AIR.id)
 
 ## Build the castle and fill with air
-mc.setBlocks(x+17, y, z+18, x+32, y+15, z+33, block.COBBLESTONE.id)
-mc.setBlocks(x+18, y, z+19, x+31, y+14, z+32,  block.AIR.id)
+mc.setBlocks(x+10, y, z+10, x+20, y+10, z+20, block.COBBLESTONE.id)
+mc.setBlocks(x+11, y, z+11, x+19, y+9, z+19,  block.AIR.id)
 
 ## dig and fill moat with water
-mc.setBlocks(x-5, y-5, z-5, x+54, y-1, z-1, block.WATER.id)
-mc.setBlocks(x+50, y-5, z, x+54, y-1, z+54, block.WATER.id)
-mc.setBlocks(x-1, y-5, z, x-5, y-1, z+54, block.WATER.id)
-mc.setBlocks(x-5, y-5, z+50, x+54, y-1, z+54, block.WATER.id)
+mc.setBlocks(x-3, y-3, z-3, x+32, y-1, z-1, block.WATER.id)
+mc.setBlocks(x+30, y-3, z-3, x+32, y-1, z+32, block.WATER.id)
+mc.setBlocks(x-1, y-3, z-3, x-3, y-1, z+32, block.WATER.id)
+mc.setBlocks(x-3, y-3, z+30, x+32, y-1, z+32, block.WATER.id)
 
 
 
