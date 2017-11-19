@@ -17,25 +17,22 @@ mc.setBlocks(x+2, y, z+2, x+27, y+4, z+27,  block.AIR.id)
 mc.setBlocks(x+10, y, z+10, x+20, y+10, z+20, block.COBBLESTONE.id)
 mc.setBlocks(x+11, y, z+11, x+19, y+9, z+19,  block.AIR.id)
 
-## dig and fill moat with water
+## Dig and fill moat with water
 mc.setBlocks(x-3, y-3, z-3, x+32, y-1, z-1, block.WATER.id)
 mc.setBlocks(x+30, y-3, z-3, x+32, y-1, z+32, block.WATER.id)
 mc.setBlocks(x-1, y-3, z-3, x-3, y-1, z+32, block.WATER.id)
 mc.setBlocks(x-3, y-3, z+30, x+32, y-1, z+32, block.WATER.id)
 
-##Add a gap for the main entrance
+## Added a door and drawbridge 
 mc.setBlocks(x+13, y, z, x+14, y+3, z+1, block.WOOD.id)
-mc.setBlocks(x+21,y,z+15,x+21,y+1,z+15, block.DOOR_WOOD.id)
+mc.setBlocks(x+21, y, z+15, x+21, y+1, z+15, block.DOOR_WOOD.id)
 
-#x+=5
-
-##Build the tower and fill with air
-#mc.setBlocks(x, y+5, z, x+3, y+10, z+3, block.WOOD_PLANKS.id)
-#mc.setBlocks(x+1, y, z+1, x+2, y+9, z+2,  block.AIR.id)
-
-##Add the top of the tower
-#mc.setBlocks(x, y+11, z, x, y+13, z, block.WOOD_PLANKS.id,)
-#mc.setBlocks(x, y+11, z+3, x, y+13, z+3, block.WOOD_PLANKS.id)
-#mc.setBlocks(x+3, y+11, z,x+3, y+13, z, block.WOOD_PLANKS.id)
-#mc.setBlocks(x+3, y+11, z+3, x+3, y+13, z+3, block.WOOD_PLANKS.id)
-#mc.setBlocks(x, y+14, z, x+3, y+14, z+3, block.WOOD_PLANKS.id)
+## Added battlements to the castle and wall
+mc.setBlocks(x, y+5, z, x, y+5, z, block.COBBLESTONE.id)
+mc.setBlocks(x, y+5, z+29, x, y+5, z+29, block.COBBLESTONE.id) 
+mc.setBlocks(x+29, y+5, z, x+29, y+5, z, block.COBBLESTONE.id)
+mc.setBlocks(x+29, y+5, z+29, x+29, y+5, z+29, block.COBBLESTONE.id)
+mc.setBlocks(x+10, y+11, z+20, x+10, y+11, z+20, block.COBBLESTONE.id)
+mc.setBlocks(x+20, y+11, z+10, x+20, y+11, z+10, block.COBBLESTONE.id) 
+mc.setBlocks(x+20, y+11, z+20, x+20, y+11, z+20, block.COBBLESTONE.id)
+mc.setBlocks(x+10, y+11, z+10, x+10, y+11, z+10, block.COBBLESTONE.id)
