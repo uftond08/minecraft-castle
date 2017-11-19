@@ -11,7 +11,7 @@ mc.setBlocks(-128, y, -128, 128 , y+64, 128, block.AIR.id)
 
 ## Build the castle walls and fill with air
 mc.setBlocks(x, y, z, x+29, y+4, z+29, block.COBBLESTONE.id)
-mc.setBlocks(x+3, y, z+3, x+27, y+4, z+27,  block.AIR.id)
+mc.setBlocks(x+2, y, z+2, x+27, y+4, z+27,  block.AIR.id)
 
 ## Build the castle and fill with air
 mc.setBlocks(x+10, y, z+10, x+20, y+10, z+20, block.COBBLESTONE.id)
@@ -23,13 +23,9 @@ mc.setBlocks(x+30, y-3, z-3, x+32, y-1, z+32, block.WATER.id)
 mc.setBlocks(x-1, y-3, z-3, x-3, y-1, z+32, block.WATER.id)
 mc.setBlocks(x-3, y-3, z+30, x+32, y-1, z+32, block.WATER.id)
 
-
-
-##Add the floor to the Mill
-#mc.setBlocks(x, y-1, z, x+8, y-1, z+11, block.WOOL.id,1)
-
 ##Add a gap for the main entrance
-#mc.setBlocks(x+3, y, z, x+4, y+1, z, block.AIR.id)
+mc.setBlocks(x+13, y, z, x+14, y+3, z+1, block.WOOD.id)
+mc.setBlocks(x+21,y,z+15,x+21,y+1,z+15, block.DOOR_WOOD.id)
 
 #x+=5
 
