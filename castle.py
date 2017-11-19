@@ -101,18 +101,18 @@ mc.setBlocks(x+12, y+11, z+20, x+12, y+11, z+20, block.COBBLESTONE.id)
 mc.setBlocks(x+14, y+11, z+20, x+14, y+11, z+20, block.COBBLESTONE.id)
 mc.setBlocks(x+16, y+11, z+20, x+16, y+11, z+20, block.COBBLESTONE.id)
 mc.setBlocks(x+18, y+11, z+20, x+18, y+11, z+20, block.COBBLESTONE.id)
-
-mc.setBlocks(x+20, y+11, z+10, x+20, y+11, z+10, block.COBBLESTONE.id) 
+ 
 mc.setBlocks(x+20, y+11, z+12, x+20, y+11, z+12, block.COBBLESTONE.id) 
 mc.setBlocks(x+20, y+11, z+14, x+20, y+11, z+14, block.COBBLESTONE.id) 
 mc.setBlocks(x+20, y+11, z+16, x+20, y+11, z+16, block.COBBLESTONE.id) 
 mc.setBlocks(x+20, y+11, z+18, x+20, y+11, z+18, block.COBBLESTONE.id) 
-
 mc.setBlocks(x+20, y+11, z+20, x+20, y+11, z+20, block.COBBLESTONE.id)
-mc.setBlocks(x+18, y+11, z+20, x+18, y+11, z+20, block.COBBLESTONE.id)
-mc.setBlocks(x+16, y+11, z+20, x+16, y+11, z+20, block.COBBLESTONE.id)
-mc.setBlocks(x+14, y+11, z+20, x+14, y+11, z+20, block.COBBLESTONE.id)
-mc.setBlocks(x+12, y+11, z+20, x+12, y+11, z+20, block.COBBLESTONE.id)
+
+mc.setBlocks(x+20, y+11, z+10, x+20, y+11, z+10, block.COBBLESTONE.id)
+mc.setBlocks(x+18, y+11, z+10, x+18, y+11, z+10, block.COBBLESTONE.id)
+mc.setBlocks(x+16, y+11, z+10, x+16, y+11, z+10, block.COBBLESTONE.id)
+mc.setBlocks(x+14, y+11, z+10, x+14, y+11, z+10, block.COBBLESTONE.id)
+mc.setBlocks(x+12, y+11, z+10, x+12, y+11, z+10, block.COBBLESTONE.id)
 
 mc.setBlocks(x+10, y+11, z+10, x+10, y+11, z+10, block.COBBLESTONE.id)
 mc.setBlocks(x+10, y+11, z+12, x+10, y+11, z+12, block.COBBLESTONE.id)
