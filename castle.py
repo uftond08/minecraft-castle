@@ -1,33 +1,48 @@
+## This section allows the code to understand how to work with Minecraft
 import mcpi.minecraft as minecraft
 import mcpi.block as block
 mc = minecraft.Minecraft.create()
 x,y,z = mc.player.getPos()
 x+=2
 
-## Makes the land flat with grass
+## This section makes the land flat with grass
+## Making the land flat with grass is important because if the land wasn't flat, the 
+## castle might float in the air.
 mc.setBlocks(-128, y-10,-128, 128, y-1, 128, block.DIRT.id)
 mc.setBlocks(-128, y-1, -128, 128 , y, 128, block.GRASS.id)
 mc.setBlocks(-128, y, -128, 128 , y+64, 128, block.AIR.id)
 
 ## Build the castle walls and fill with air
+## The castle walls are important for making it difficult for people to get into the 
+## castle and keeping the things inside them safe.
 mc.setBlocks(x, y, z, x+29, y+4, z+29, block.COBBLESTONE.id)
 mc.setBlocks(x+2, y, z+2, x+27, y+4, z+27,  block.AIR.id)
 
 ## Build the castle and fill with air
+## The castle is where important things are kept safe.  Important things like people,
+## equipment, armour, food, money and other valuable things. 
 mc.setBlocks(x+10, y, z+10, x+20, y+10, z+20, block.COBBLESTONE.id)
 mc.setBlocks(x+11, y, z+11, x+19, y+9, z+19,  block.AIR.id)
 
 ## Dig and fill moat with water
+## A moat is another way way of keeping people away from the castle.  The water 
+## makes it more difficult to get close to the walls to stop people trying to climb 
+## over.
 mc.setBlocks(x-3, y-3, z-3, x+32, y-1, z-1, block.WATER.id)
 mc.setBlocks(x+30, y-3, z-3, x+32, y-1, z+32, block.WATER.id)
 mc.setBlocks(x-1, y-3, z-3, x-3, y-1, z+32, block.WATER.id)
 mc.setBlocks(x-3, y-3, z+30, x+32, y-1, z+32, block.WATER.id)
 
 ## Added a door and drawbridge 
+## A drawbridge is the door to the courtyard and the main door is the enterance to 
+## the main castle. The drawbridge can be raised and lowered over the moat so you 
+## can choose who you let in and who you don't.
 mc.setBlocks(x+13, y, z, x+14, y+3, z+1, block.WOOD.id)
 mc.setBlocks(x+21, y, z+15, x+21, y+1, z+15, block.DOOR_WOOD.id)
 
 ## Added battlements to the castle and wall
+## Battlements help defend castles and walls by providing more protection but can 
+## have things shot out of them like arrows, to stop or put off enemies.
 ## Wall
 mc.setBlocks(x+29, y+5, z, x+29, y+5, z, block.COBBLESTONE.id)
 mc.setBlocks(x+27, y+5, z, x+27, y+5, z, block.COBBLESTONE.id)
